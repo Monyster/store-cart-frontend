@@ -1,0 +1,203 @@
+.main__cart {}
+
+.cart {
+  padding: 40px 0 0 0;
+}
+
+.cart__container {}
+
+.cart__header {
+  padding: 0 0 25px 0;
+}
+
+.cart__body {}
+
+.cart__table {}
+
+.table-cart {
+  width: 100%;
+  margin: 0 0 20px 0;
+}
+
+.table-cart__header {}
+
+.header-table-cart {}
+
+.header-table-cart__row {}
+
+.header-table-cart__item {
+  font-size: 26px;
+  font-weight: 700;
+  text-align: center;
+
+  border: 1px solid black;
+}
+
+.table-cart__body {}
+
+.body-table-cart {}
+
+.body-table-cart__row {}
+
+.body-table-cart__item {
+  font-size: 18px;
+  font-weight: 500;
+
+  text-align: center;
+  border: 1px solid black;
+  position: relative;
+  height: 134px;
+
+  padding: 0 10px;
+}
+
+.body-table-cart__item>span {
+  font-size: 22px;
+  font-weight: 600;
+  padding: 0 0 0 135px;
+  display: block;
+  text-align: center;
+}
+
+.body-table-cart__item>img {
+  position: absolute;
+  top: 20%;
+  left: 0;
+  height: 80px;
+}
+
+.cart__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 0 0 20px 0;
+}
+
+.cart__result {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.cart__buy {
+  font-size: 20px;
+  font-weight: 500;
+
+  text-align: center;
+  padding: 10px 35px;
+  border: none;
+  border-radius: 5px;
+  background-color: green;
+  color: white;
+  transition: all 0.3s;
+}
+
+.cart__buy:not(:disabled):hover {
+  background-color: rgb(5, 92, 5);
+  border-radius: 15px;
+}
+
+.cart__buy:active {
+  background-color: rgb(81, 119, 81);
+}
+
+.cart__buy:disabled {
+  background-color: rgba(48, 110, 84, 0.719);
+}
+
+.cart__empty {
+  text-align: center;
+
+  font-size: 20px;
+  font-weight: 500;
+
+  padding: 30px 0;
+}
+
+.cart__orderStatus {
+  text-align: center;
+
+  font-size: 30px;
+  font-weight: 500;
+
+  padding: 30px 0;
+}
+
+.del {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  cursor: pointer;
+  background-color: none;
+  background: none;
+  border: none;
+}
+
+.del::before,
+.del::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1rem;
+  height: 0.1rem;
+  background-color: #f00;
+  transform: rotate(-45deg);
+  border-radius: 0.1rem;
+}
+
+.del::after {
+  transform: rotate(45deg);
+}
+
+
+
+.cart__contacts {}
+
+.contacts {
+  padding: 30px 0;
+}
+
+.contacts__container {}
+
+.contacts__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts__form>*:not(:last-child) {
+  margin: 0 0 20px 0;
+}
+
+.contacts__field {
+  flex: 0 1 25%;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.contacts__input {
+  width: 100%;
+  flex: 0 1 100%;
+}
+
+.contacts__submit {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  padding: 10px 35px;
+  border: none;
+  border-radius: 5px;
+  background-color: green;
+  color: white;
+  transition: all 0.3s;
+}
+
+.contacts__submit:not(:disabled):hover {
+  background-color: rgb(5, 92, 5);
+  border-radius: 15px;
+}
+
+.contacts__submit:active {
+  background-color: rgb(81, 119, 81);
+}
