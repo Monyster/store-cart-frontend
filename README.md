@@ -1,6 +1,8 @@
 # Getting Started with Create React App
 Now launched on aws by address http://3.228.71.220/
 
+Works normally on PC version.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
