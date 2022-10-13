@@ -88,6 +88,18 @@ select {
     padding: 0 20px;
     margin: 0 auto;
 }
+@media (max-width: 860px) {
+    [class*="__container"] {
+        width: calc(600px + 20px);
+        padding: 0 10px;
+    }
+  }
+  @media (max-width: 630px) {
+    [class*="__container"] {
+        width: calc(400px + 20px);
+        padding: 0 10px;
+    }
+  }
 
 
 .header-block {

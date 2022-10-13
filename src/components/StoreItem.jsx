@@ -21,7 +21,7 @@ const StoreItem = (props) => {
   return (
     <div className="store__column">
       <div className="store__item item-store">
-        <a className="item-store__image _ibg">
+        <a className="item-store__image _ibg" href="#">
           <img src={imagePath} alt="item" />
         </a>
         <div className="item-store__content">

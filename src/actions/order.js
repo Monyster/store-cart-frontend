@@ -4,8 +4,8 @@ export const createOrder = async (name, email, phone, address, orderList) => {
   try {
     var querystring = require("qs");
 
-    const response = axios.post(
-      "http://localhost:5000/orders",
+    axios.post(
+      "http://3.228.71.220:5000/orders",
       querystring.stringify({
         name: name,
         email: email,

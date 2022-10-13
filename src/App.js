@@ -6,8 +6,6 @@ import "./App.css";
 
 
 
-const cart = JSON.parse(localStorage.getItem("cart")) || [];
-
 function App() {
   return (
     <BrowserRouter>

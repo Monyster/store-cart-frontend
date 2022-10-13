@@ -15,9 +15,9 @@ const CartPage = () => {
 
   let resultPrice = 0;
 
-  cart.map((product) => {
-    resultPrice += parseInt(parseInt(product.price) * parseInt(product.quantity));
-  });
+  cart.map((product) => 
+    resultPrice += parseInt(parseInt(product.price) * parseInt(product.quantity))
+  );
 
 
   const deleteFromCart = (event) => {

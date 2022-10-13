@@ -6,7 +6,7 @@ const McDonaldPage = () => {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    axios.get(`http://localhost:5000/products/McDonald`).then((response) => {
+    axios.get(`http://3.228.71.220:5000/products/McDonald`).then((response) => {
       setProducts(response.data);
     });
   }, []);

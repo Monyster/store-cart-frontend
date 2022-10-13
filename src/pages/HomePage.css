@@ -1,8 +1,6 @@
 .main__selection {}
 
-.selection {
-  padding: 40px 0 0 0;
-}
+.selection {}
 
 .selection__header {
   margin: 0 0 40px 0;
@@ -64,6 +62,13 @@
   margin: 0 0 30px 0;
 }
 
+@media (max-width: 860px) {
+  .store__column {
+    flex: 0 1 50%;
+    width: auto;
+  }
+}
+
 .store__item {}
 
 .item-store {
@@ -93,7 +98,7 @@
 }
 
 .item-store__name {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 600;
 }
 
@@ -102,6 +107,17 @@
   font-size: 16px;
   font-weight: 400;
 }
+
+@media (max-width: 630px) {
+  .item-store__description {
+    display: none;
+  }
+
+  .item-store__name {
+    flex: 1 1 auto;
+  }
+}
+
 
 .item-store__price {
   font-size: 20px;

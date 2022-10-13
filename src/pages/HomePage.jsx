@@ -12,12 +12,13 @@ const HomePage = () => {
                 <div className="selection__header header-block">
                     <h1 className="header-block__title">Оберіть магазин</h1>
                 </div>
-            </div>
-            <div className='selection_body'>
-                <button className="selection__link" onClick={() => setSelectedStore(1)} >McDonald's</button>
-                <button className="selection__link" onClick={() => setSelectedStore(2)}>KFC</button>
+                <div className='selection_body'>
+                    <button className="selection__link" onClick={() => setSelectedStore(1)} >McDonald's</button>
+                    <button className="selection__link" onClick={() => setSelectedStore(2)}>KFC</button>
 
+                </div>
             </div>
+
             {
                 selectedStore === 0
                     ? <div>Оберіть магазин</div>
